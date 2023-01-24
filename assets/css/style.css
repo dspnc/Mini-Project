@@ -1,0 +1,113 @@
+/* Universal Selector */
+
+* { 
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Element Selectors */
+/* 3 colors */
+body {
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background-color: rgb(156, 156, 156)
+}
+header,
+footer {
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    background-color: deepskyblue;
+}
+header {
+    position: fixed;
+    border-bottom: 10px solid whitesmoke;
+}
+
+footer {
+    position: absolute;
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 10px solid whitesmoke;
+    border-top: 5px solid whitesmoke;
+    color: rgba(3, 3, 103, 0.813);
+}
+
+h1,
+h2 {
+    margin: 20px;
+    color: rgba(3, 3, 103, 0.813);
+}
+
+main {
+    padding: 60px 0;
+}
+
+li {
+    display: inline;
+    padding: 0px 12px;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+figure {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+section {
+    margin-bottom: 0;
+    padding: 10px 10px 20px 10px;
+    border-top: 3px solid gray;
+    background-color: whitesmoke;
+}
+
+form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border: 5px solid gray;
+    border-radius: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 20%;
+}
+
+input {
+    box-sizing: border-box;
+    width: 55%;
+    border: 1px solid black;
+}
+
+button {
+    height: 40px;
+    width: 120px;
+    background-color: gray;
+    color: rgba(3, 3, 103, 0.813);
+    margin-top: 10px;
+}
+
+/* Class/id Selectors */
+
+#galaxy {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
